@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bộ Sưu Tập - Dự Án CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Chuyển đến Nội dung chính</a>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="gallery.html">Bộ sưu tập</a></li>
+                <li><a href="about.html">Giới thiệu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <h1>Bộ Sưu Tập Hình Ảnh</h1>
+        <p>Trang này sử dụng CSS Grid và lớp giả <code>:nth-child</code> để tạo hình dáng bo góc khác nhau cho các hình ảnh.</p>
+
+        <!-- Bố cục Grid chứa 5 hình ảnh -->
+        <div class="image-grid">
+            <img src="https://picsum.photos/400/300?random=2" alt="Thành phố hiện đại về đêm" class="styled-image">
+            <img src="https://picsum.photos/400/300?random=3" alt="Rừng cây xanh mát vào mùa hè" class="styled-image">
+            <img src="https://picsum.photos/400/300?random=4" alt="Bờ biển tuyệt đẹp lúc hoàng hôn" class="styled-image">
+            <img src="https://picsum.photos/400/300?random=5" alt="Dãy núi hùng vĩ phủ đầy tuyết" class="styled-image">
+            <img src="https://picsum.photos/400/300?random=6" alt="Cánh đồng hoa rực rỡ sắc màu" class="styled-image">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Dự án Thiết kế Web Căn Bản</p>
+    </footer>
+
+</body>
+</html>
